@@ -14,7 +14,7 @@ class Contact extends React.Component{
 
   render() {
     return (
-      <section className="contact" id="CONTACT">
+      <section className="contact contact-background-map" id="CONTACT">
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
@@ -27,18 +27,25 @@ class Contact extends React.Component{
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container contact-text-center">
           <div className="row">
-            <div className="col-md-3  wow fadeInLeft animated">
+            <div className="col-md-3 wow fadeInLeft animated">
               <div className="single_contact_info">
+                <img src="images/contact/phone.png" alt="Rondo kuchyně - kontakt - telefon" className='contact-image-icon' />
                 <h2>Telefon</h2>
                 <p>+420 724 753 951</p>
               </div>
+            </div>
+            <div className="col-md-3 wow fadeInLeft animated">
               <div className="single_contact_info">
+                <img src="images/contact/email.png" alt="Rondo kuchyně - kontakt - e-mail" className='contact-image-icon' />
                 <h2>E-mail</h2>
                 <p>info@rondokuchyne.cz</p>
               </div>
+            </div>
+            <div className="col-md-3 wow fadeInRight animated">
               <div className="single_contact_info">
+              <img src="images/contact/address.png" alt="Rondo kuchyně - kontakt - adresa" className='contact-image-icon' />
                 <h2>Sídlo společnosti</h2>
                 <p>...
                 <br />
@@ -46,9 +53,11 @@ class Contact extends React.Component{
                 </p>
               </div>
             </div>
-            <div className="col-md-9 wow fadeInRight animated">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1104.811128243319!2d14.512469512818517!3d48.97152424537333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1scs!2scz!4v1447617790271"
-              className="contact-google-map" frameborder="0" allowfullscreen></iframe>
+            <div className="col-md-3 wow fadeInRight animated">
+              <div className="single_contact_info">
+              <img src="images/contact/facebook.png" alt="Rondo kuchyně - kontakt - Facebook" className='contact-image-icon' />
+                <h2>Facebook Rondo Kuchyně</h2>                
+              </div>
             </div>
           </div>
         </div>

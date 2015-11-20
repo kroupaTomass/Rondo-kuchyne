@@ -21,15 +21,15 @@ class Header extends React.Component{
                     <span className='icon-bar'></span>
                     <span className='icon-bar'></span>
                   </button>
-                  <a className='navbar-brand' href='#'><img src='images/logo.png' alt='Rondo Kuchyně' className='header-logo' /></a>
+                  <a className='navbar-brand' href='#'><img src='images/logo_header.png' alt='Rondo Kuchyně' className='header-logo' /></a>
                 </div>
 
                 <div className='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
                   <ul className='nav navbar-nav navbar-right'>
-                    <li><a href='#HOME'>Home</a></li>
-                    <li><a href='#SERVICE'>Služby</a></li>
+                    <li><a href='#HOME'><img src='images/icon_home.png' alt='Rondo kuchyně - HOME' className='iconHome' /></a></li>
+                    <li><a href='#SERVICE'>Jak na to?</a></li>
                     <li><a href='#ABOUT'>O nás</a></li>
-                    <li><a href='#TESTIMONIAL'>Zkušenosti</a></li>
+                    <li><a href='#TESTIMONIAL'>Reference</a></li>
                     <li><a href='#WORK'>Realizace</a></li>
                     <li><a href='#CONTACT'>Kontakt</a></li>
                   </ul>

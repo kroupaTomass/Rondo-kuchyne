@@ -14,16 +14,26 @@
     render() {
       return (
         <div>
-          <section className="testimonial text-center wow fadeInUp animated" id="Testimonial">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12 text-center">
+                <div className="about_title">
+                  <h2>Ohlas od našich zákazníků</h2>
+                  <img src="images/shape.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <section className="testimonial text-center wow fadeInUp animated" id="TESTIMONIAL">
             <div className="container">
               <div className="icon">
                 <i className="icon-quote"></i>
               </div>
               <div className="owl-carousel">
                 <div className="single_testimonial text-center wow fadeInUp animated">
-                  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                    <br/> eos qui ratione voluptatem sequi nesciunt.</p>
-                  <h4>-JOHN DOE</h4>
+                  <p>Velmi kvalitně odvedená práce, kvalitní materiál a výborná komunikace.
+                    <br/> Těším se na další spolupráci.</p>
+                  <h4>-Josef Koblížek</h4>
                 </div>
                 <div className="single_testimonial text-center">
                   <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
