@@ -80,7 +80,7 @@ gulp.task('images', function(cb) {
 
 // copy fonts
 gulp.task('fonts', function(cb) {
-  return gulp.src(app + 'fonts/**/*.{eot,svg,woff,ttf}')
+  return gulp.src(app + 'vendor-source/fonts/**/*.{eot,svg,woff,ttf,css}')
     .pipe($.size({ title : 'fonts' }))
     .pipe(gulp.dest(dist + 'fonts/'))
     .pipe($.connect.reload());
@@ -88,7 +88,7 @@ gulp.task('fonts', function(cb) {
 
 // copy js
 gulp.task('vendor-js', function(cb) {
-  return gulp.src(buildPath + 'js/**/*.{js}')
+  return gulp.src(app + 'vendor-source/js/**/*.js')
     .pipe($.size({ title : 'js' }))
     .pipe(gulp.dest(dist + 'js/'))
     .pipe($.connect.reload());
@@ -96,7 +96,7 @@ gulp.task('vendor-js', function(cb) {
 
 // copy fonts
 gulp.task('vendor-css', function(cb) {
-  return gulp.src(buildPath + 'css/**/*.{css}')
+  return gulp.src(app + 'vendor-source/css/**/*.css')
     .pipe($.size({ title : 'css' }))
     .pipe(gulp.dest(dist + 'css/'))
     .pipe($.connect.reload());
@@ -121,5 +121,5 @@ gulp.task('default', ['build', 'serve', 'watch']);
 
 // waits until clean is finished then builds the project
 gulp.task('build', ['clean'], function(){
-  gulp.start(['images', 'html','scripts','styles', 'vendor-js', 'fonts', 'vendor-css']);
+  gulp.start(['images', 'html', 'scripts', 'styles', 'vendor-js', 'vendor-css', 'fonts']);
 });
