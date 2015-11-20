@@ -1,0 +1,9 @@
+.DS_Store
+*node_modules
+*npm-debug*
+
+/build/**
+/dist/**
+
+!/dist/configuration.js
+!/build/configuration.js

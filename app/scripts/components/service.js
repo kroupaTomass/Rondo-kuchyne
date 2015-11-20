@@ -1,0 +1,54 @@
+import React from 'react';
+import { Link } from 'react-router';
+
+class SectionService extends React.Component{
+
+  constructor(props, context) {
+   super(props);
+  }
+
+  render() {
+    return (
+      <section className="services" id="SERVICE">
+        <div className="container">
+            <div className="row">
+                <div className="col-md-3 text-center">
+                    <div className="single_service wow fadeInUp" data-wow-delay="1s">
+                        <i className="icon-pencil"></i>
+                        <h2>Návrh</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+                <div className="col-md-3 text-center">
+                    <div className="single_service wow fadeInUp" data-wow-delay="2s">
+                        <i className="icon-chat"></i>
+                        <h2>Konzultace</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+                <div className="col-md-3 text-center">
+                    <div className="single_service wow fadeInUp" data-wow-delay="3s">
+                        <i className="icon-gears"></i>
+                        <h2>Výroba na míru</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+                <div className="col-md-3 text-center">
+                    <div className="single_service wow fadeInUp" data-wow-delay="4s">
+                        <i className="icon-tools-2"></i>
+                        <h2>Montáž</h2>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    );
+  }
+}
+
+SectionService.contextTypes = {
+  router: React.PropTypes.func.isRequired
+}
+
+export default SectionService;
