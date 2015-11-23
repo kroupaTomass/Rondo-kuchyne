@@ -47,7 +47,7 @@ class Work extends React.Component{
             <div className="col-md-4 no_padding">
               <div className="single_image">
                 <img src="images/kitchen/03.jpg" alt="" />
-                <div className="image_overlay">                  
+                <div className="image_overlay">
 
                   <button type="button" className="btn work-btn-design" data-toggle="modal" data-target="#myModal">
                     Více informací
@@ -56,8 +56,11 @@ class Work extends React.Component{
                     <div className="modal-dialog" role="document">
                       <div className="modal-content">
                         <div className="modal-header">
-                          <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <h4 className="modal-title" id="myModalLabel">Kuchyně SILVA</h4>
+                          <h5 className="modal-title work-modal-title" id="myModalLabel">Kuchyně SILVA</h5>
+                          <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                          <br />
                         </div>
                         <div className="modal-body">
                           Zde budou zobrazeny informace o vybraném produktu, můžou být přiloženy i nějaké fotografie
