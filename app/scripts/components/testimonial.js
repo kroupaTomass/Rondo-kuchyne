@@ -55,21 +55,21 @@
                           <div className="single_count">
                             <i className="icon-toolbox"></i>
                             <h3>300+</h3>
-                            <p>Dokončených projektů</p>
+                            <p>Dokončených kuchyní</p>
                           </div>
                         </div>
                         <div className="col-md-4">
                           <div className="single_count">
                             <i className="icon-clock"></i>
-                            <h3>150+</h3>
-                            <p>Spokojených zákazníků</p>
+                            <h3>80+</h3>
+                            <p>Kuchyní v posledním roce</p>
                           </div>
                         </div>
                         <div className="col-md-4">
                           <div className="single_count">
                             <i className="icon-trophy"></i>
-                            <h3>9</h3>
-                            <p>Zaměstnanců</p>
+                            <h3>10+</h3>
+                            <p>Let zkušeností s výrobou</p>
                           </div>
                         </div>
                       </div>

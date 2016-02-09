@@ -33,21 +33,24 @@ class Contact extends React.Component{
               <div className="single_contact_info">
                 <img src="images/contact/phone.png" alt="Rondo kuchyně - kontakt - telefon" className='contact-image-icon' />
                 <h2>Telefon</h2>
-                <p>+420 724 753 951</p>
+                <p>+420 775 020 314</p>
               </div>
             </div>
             <div className="col-md-3 wow fadeInLeft animated">
               <div className="single_contact_info">
                 <img src="images/contact/email.png" alt="Rondo kuchyně - kontakt - e-mail" className='contact-image-icon' />
                 <h2>E-mail</h2>
-                <p>info@rondokuchyne.cz</p>
+                <p>
+                  <a href='mailto:info@kuchynerondo.cz' title='Kontaktujte nás' className=''>info@kuchynerondo.cz</a>
+                </p>
               </div>
             </div>
             <div className="col-md-3 wow fadeInRight animated">
               <div className="single_contact_info">
               <img src="images/contact/address.png" alt="Rondo kuchyně - kontakt - adresa" className='contact-image-icon' />
-                <h2>Sídlo společnosti</h2>
-                <p>...
+                <h2>Showroom</h2>
+                <p>
+                Dobrovodská 127
                 <br />
                 370 06 Dobrá Voda
                 </p>
@@ -56,7 +59,10 @@ class Contact extends React.Component{
             <div className="col-md-3 wow fadeInRight animated">
               <div className="single_contact_info">
               <img src="images/contact/facebook.png" alt="Rondo kuchyně - kontakt - Facebook" className='contact-image-icon' />
-                <h2>Facebook Rondo Kuchyně</h2>                
+                <h2>
+                  Facebook <br />
+                  Kuchyně Rondo
+                </h2>
               </div>
             </div>
           </div>

@@ -23,49 +23,32 @@ class Header extends React.Component{
         <div className="container">
           <div className="row">
             <div className="col-md-4  wow fadeInLeft animated">
-              <div className="single_progress_bar">
-                <h2>DESIGN - 90%</h2>
-                <div className="progress">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                    <span className="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </div>
-              <div className="single_progress_bar">
-                <h2>DEVELOPMENT - 60%</h2>
-                <div className="progress">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                    <span className="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </div>
-              <div className="single_progress_bar">
-                <h2>MARKETING - 75%</h2>
-                <div className="progress">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                    <span className="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </div>
-              <div className="single_progress_bar">
-                <h2>SEO - 95%</h2>
-                <div className="progress">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                    <span className="sr-only">60% Complete</span>
-                  </div>
-                </div>
-              </div>
+              <p className="about_us_p">
+                Chtějte pro Váš domov konečně něco lepšího!<br />
+                Kuchyně Rondo Vám to splní!
+                <br />
+                Kuchyně Rondo je nová, dynamicky se rozvíjející firma s dlouholetými zkušenostmi v nábytkářské výrobě.
+                Naším cílem je obohatit trh o moderní prvky ve vybavení kuchyní a interiérů a přinést do Vašich domovů kvalitní truhlářskou výrobu za rozumnou cenu.
+              </p>
             </div>
             <div className="col-md-4  wow fadeInRight animated">
-              <p className="about_us_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Sed quia non numquam eius modi tempora.</p>
+              <p className="about_us_p">
+                V našich projektech se snažíme co nejlépe spojit Vaše osobní představy a požadavky s moderními trendy a technologiemi v zařizování interiérů.
+                Stylový a soudobý design koncipujeme v návrzích tak, aby korespondoval s maximální praktičností a pohodlím pro každého z našich zákazníků, tělesně handicapovaných spoluobčanů nevyjímaje.
+                <br />
+                Vysoké kvality výrobků dosahujeme díky preciznímu zpracování a zakomponování značkových a vysoce kvalitních materiálů. Tím jsme schopni konkurovat nejkvalitnějším
+                kuchyňským studiím na českém i zahraničním trhu.
+              </p>
             </div>
             <div className="col-md-4  wow fadeInRight animated">
-              <p className="about_us_p">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+              <p className="about_us_p">
+                Rádi Vám poradíme s typem nábytku vhodným právě do Vašeho interiéru, připravíme Vám cenovou nabídku, která potěší Váš rozpočet, v ceně zakázky Vám
+                rovněž nabídneme 3D návrh a především zajistíme výrobu a montáž nábytku prvotřídní kvality.
+                <br />
+                V případě zájmu o zpracování cenové nabídky, návrhu nebo máte-li jakékoliv dotazy, neváhejte nás kontaktovat na tel.: +420 775 020 314 nebo e-mailu: info@kuchynerondo.cz.
+                <br /><br />
+                Těšíme se na spolupráci s Vámi!
+              </p>
             </div>
           </div>
         </div>
