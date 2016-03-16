@@ -21,7 +21,7 @@ class Header extends React.Component{
                     <span className='icon-bar'></span>
                     <span className='icon-bar'></span>
                   </button>
-                  <a className='navbar-brand' href='#'><img src='images/logo_header.png' alt='Rondo Kuchyně' className='header-logo' /></a>
+                  <a className='navbar-brand header-logo' href='#'><img src='images/kuchyne_rondo_150.png' alt='Rondo Kuchyně' /></a>
                 </div>
 
                 <div className='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>

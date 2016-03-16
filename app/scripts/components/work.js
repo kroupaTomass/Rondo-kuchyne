@@ -13,7 +13,7 @@ class Work extends React.Component{
 
   render() {
     return (
-      <section className="work_area" id="WORK">
+      <section className="work_area" id="WORK">      
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
@@ -29,7 +29,7 @@ class Work extends React.Component{
           <div className="row">
             <Kuchyne_a />
             <Kuchyne_b />
-            <Kuchyne_c />            
+            <Kuchyne_c />
           </div>
           <div className="row pad_top">
             <div className="col-md-4 no_padding">

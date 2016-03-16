@@ -14,8 +14,8 @@ class Footer extends React.Component{
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <div className="footer_logo   wow fadeInUp animated">
-                  <img src="images/logo.png" alt="" />
+                <div className="footer_logo wow fadeInUp animated">
+                  <img src="images/kuchyne_rondo_white_big.png" alt="" />
                 </div>
               </div>
             </div>
