@@ -4,6 +4,11 @@ import { Link } from 'react-router';
 import Kuchyne_a from './kuchyne/kitchen_a.js';
 import Kuchyne_b from './kuchyne/kitchen_b.js';
 import Kuchyne_c from './kuchyne/kitchen_c.js';
+import Kuchyne_d from './kuchyne/kitchen_d.js';
+import Kuchyne_e from './kuchyne/kitchen_e.js';
+import Kuchyne_f from './kuchyne/kitchen_f.js';
+import Kuchyne_g from './kuchyne/kitchen_g.js';
+import Kuchyne_h from './kuchyne/kitchen_h.js';
 
 class Work extends React.Component{
 
@@ -13,7 +18,7 @@ class Work extends React.Component{
 
   render() {
     return (
-      <section className="work_area" id="WORK">      
+      <section className="work_area" id="WORK">
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
@@ -32,35 +37,15 @@ class Work extends React.Component{
             <Kuchyne_c />
           </div>
           <div className="row pad_top">
-            <div className="col-md-4 no_padding">
-              <div className="single_image">
-                <img src="images/kitchen/04.jpg" alt="" />
-                <div className="image_overlay">
-                  <a href="">Více informací</a>
-                  <h2>Obýváková stěna</h2>
-                  <h4>vybavení obývací místnosti</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 no_padding">
-              <div className="single_image">
-                <img src="images/kitchen/05.jpg" alt="" />
-                <div className="image_overlay">
-                  <a href="">View Full Project</a>
-                  <h2>drawing</h2>
-                  <h4>with pencil colors</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 no_padding">
-              <div className="single_image last_padding">
-                <img src="images/kitchen/06.jpg" alt="" />
-                <div className="image_overlay">
-                  <a href="">View Full Project</a>
-                  <h2>drawing</h2>
-                  <h4>with pencil colors</h4>
-                </div>
-              </div>
+            <Kuchyne_d />
+            <Kuchyne_e />
+            <Kuchyne_f />
+          </div>
+          <div className="row pad_top">
+            <Kuchyne_g />
+            <Kuchyne_h />
+            <div className="col-md-4 no_padding div-work-facebook">
+              <img src="images/img_facebook_href.png" alt="Kuchyně RONDO" />
             </div>
           </div>
         </div>

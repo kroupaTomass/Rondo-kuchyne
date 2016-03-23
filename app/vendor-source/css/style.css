@@ -1,5 +1,6 @@
 body{
 	font-family: 'Dosis', sans-serif;
+	overflow-x: hidden;
 }
 p{
 	font-family: 'Ubuntu', sans-serif;
@@ -214,9 +215,29 @@ margin-top: -40px;
 	width: 100%;
 }
 
+@media(max-width: 950px){
+	.footer_logo img{
+		width: 700px;
+	}
+}
+
 @media(max-width: 767px){
 	.imac{
 		margin-top: 20px
+	}
+
+	.footer_logo img{
+		width: 450px;
+	}
+
+	.work-btn-design {
+		display: none;
+	}
+}
+
+@media(max-width: 500px){
+	.footer_logo img{
+		width: 250px;
 	}
 }
 .single_image{
@@ -460,3 +481,58 @@ letter-spacing: 0px;
 	font-weight:700;
 	text-decoration:none;
 	}
+
+
+#btn-close-modal {
+    width:100%;
+    text-align: center;
+    cursor:pointer;
+    color:#fff;
+}
+
+.div-work-facebook {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.div-kitchen-content {
+	padding: 20px;
+	margin: 50px;
+}
+
+.div-kitchen-content img {
+	padding: 20px;
+	width: 100%;
+}
+
+.div-kitchen-carousel {
+	text-align: center;
+}
+
+/************************************
+ * Close button
+************************************/
+#closebt-container {
+	position: relative;
+	width:100%;
+	text-align:center;
+	margin-top:40px;
+}
+
+.closebt {
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	cursor:pointer;
+}
+
+.closebt:hover {
+	transform:rotate(90deg);
+}
+
+#item > p  {
+	margin:0px;
+	color:#E74B3D;
+}

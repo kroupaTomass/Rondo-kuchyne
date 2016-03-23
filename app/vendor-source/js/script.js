@@ -38,7 +38,7 @@ $('.owl-carousel').owlCarousel({
 
 $(document).ready(
 
-  function() { 
+  function() {
 
     $("html").niceScroll({
     	cursorcolor:"#f74d65",
@@ -47,15 +47,65 @@ $(document).ready(
     	horizrailenabled: "false",
     	cursorborderradius: "0px"
     });
-
+    $('#carousel-example-generic').carousel();
   }
-
 );
+
+$("#kitchen_a").animatedModal({
+  modalTarget: 'animatedModal_a',
+  color:'#dedede',
+  animatedIn: 'slideInLeft',
+  animatedOut: 'zoomOutRight'
+
+});
+$("#kitchen_b").animatedModal({
+  modalTarget:'animatedModal_b',
+  color:'#dedede',
+  animatedIn: 'slideInLeft',
+  animatedOut: 'zoomOutRight'
+});
+$("#kitchen_c").animatedModal({
+  modalTarget:'animatedModal_c',
+  color:'#dedede',
+  animatedIn: 'slideInLeft',
+  animatedOut: 'zoomOutRight'
+});
+$("#kitchen_d").animatedModal({
+  modalTarget:'animatedModal_d',
+  color:'#dedede',
+  animatedIn: 'slideInLeft',
+  animatedOut: 'zoomOutRight'
+});
+$("#kitchen_e").animatedModal({
+  modalTarget:'animatedModal_e',
+  color:'#dedede',
+  animatedIn: 'slideInLeft',
+  animatedOut: 'zoomOutRight'
+});
+$("#kitchen_f").animatedModal({
+  modalTarget:'animatedModal_f',
+  color:'#dedede',
+  animatedIn: 'slideInLeft',
+  animatedOut: 'zoomOutRight'
+});
+$("#kitchen_g").animatedModal({
+  modalTarget:'animatedModal_g',
+  color:'#dedede',
+  animatedIn: 'slideInLeft',
+  animatedOut: 'zoomOutRight'
+});
+$("#kitchen_h").animatedModal({
+  modalTarget:'animatedModal_h',
+  color:'#dedede',
+  animatedIn: 'slideInLeft',
+  animatedOut: 'zoomOutRight'
+});
+
 
 new WOW().init();
 
 
-    
+
 /*Preloader*/
 //<![CDATA[
 $(window).load(function() { // makes sure the whole site is loaded
@@ -64,5 +114,3 @@ $(window).load(function() { // makes sure the whole site is loaded
   $('body').delay(350).css({'overflow':'visible'});
 })
 //]]>
-
-
