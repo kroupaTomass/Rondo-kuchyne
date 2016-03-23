@@ -18,7 +18,7 @@ class Kitchen_a extends React.Component {
                 <img className="closebt" src="images/closebt.svg" />
             </div>
             <div className="modal-content div-kitchen-content">
-              <h4>Moderní kuchyně EDITA</h4>
+              <h4>Moderní kuchyně</h4>
               <div className="row">
                 <div className="col-md-4">
                   Základní informace o kuchyni
@@ -55,7 +55,7 @@ class Kitchen_a extends React.Component {
             </div>
         </div>
         <h2>Kuchyně</h2>
-        <h4>moderní kuchyně EDITA</h4>
+        <h4>moderní kuchyně</h4>
       </div>
     );
   }

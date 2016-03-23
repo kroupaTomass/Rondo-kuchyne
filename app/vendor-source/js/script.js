@@ -60,43 +60,43 @@ $("#kitchen_a").animatedModal({
 });
 $("#kitchen_b").animatedModal({
   modalTarget:'animatedModal_b',
-  color:'#dedede',
+  color:'#afaaa5',
   animatedIn: 'slideInLeft',
   animatedOut: 'zoomOutRight'
 });
 $("#kitchen_c").animatedModal({
   modalTarget:'animatedModal_c',
-  color:'#dedede',
+  color:'#b9aca6',
   animatedIn: 'slideInLeft',
   animatedOut: 'zoomOutRight'
 });
 $("#kitchen_d").animatedModal({
   modalTarget:'animatedModal_d',
-  color:'#dedede',
+  color:'#ce9196',
   animatedIn: 'slideInLeft',
   animatedOut: 'zoomOutRight'
 });
 $("#kitchen_e").animatedModal({
   modalTarget:'animatedModal_e',
-  color:'#dedede',
+  color:'#b99f8e',
   animatedIn: 'slideInLeft',
   animatedOut: 'zoomOutRight'
 });
 $("#kitchen_f").animatedModal({
   modalTarget:'animatedModal_f',
-  color:'#dedede',
+  color:'#d8d7d5',
   animatedIn: 'slideInLeft',
   animatedOut: 'zoomOutRight'
 });
 $("#kitchen_g").animatedModal({
   modalTarget:'animatedModal_g',
-  color:'#dedede',
+  color:'#008cb1',
   animatedIn: 'slideInLeft',
   animatedOut: 'zoomOutRight'
 });
 $("#kitchen_h").animatedModal({
   modalTarget:'animatedModal_h',
-  color:'#dedede',
+  color:'#e7d1bc',
   animatedIn: 'slideInLeft',
   animatedOut: 'zoomOutRight'
 });
