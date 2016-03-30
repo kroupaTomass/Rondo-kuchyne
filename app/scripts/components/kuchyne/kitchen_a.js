@@ -21,7 +21,8 @@ class Kitchen_a extends React.Component {
               <h4>Moderní kuchyně</h4>
               <div className="row">
                 <div className="col-md-4">
-                  Základní informace o kuchyni
+                  Popis kuchyně: <br />
+                  Použitý materiál:
                 </div>
                 <div className="col-md-4">
                   <img src="images/kitchen/img/01/001.jpg" alt="" />

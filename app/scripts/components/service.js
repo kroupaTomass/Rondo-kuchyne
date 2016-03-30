@@ -13,7 +13,7 @@ class SectionService extends React.Component{
         <div className="container">
             <div className="row">
                 <div className="col-md-3 text-center">
-                    <div className="single_service wow fadeInUp" data-wow-delay="1s">
+                    <div className="single_service wow fadeInLeft" data-wow-delay="1s">
                         <!-- i className="icon-pencil"></i -->
                         <img src="images/img-navrh.png" alt="Rondo Kuchyně" />
                         <h2>Návrh</h2>
@@ -37,7 +37,7 @@ class SectionService extends React.Component{
                     </div>
                 </div>
                 <div className="col-md-3 text-center">
-                    <div className="single_service wow fadeInUp" data-wow-delay="4s">
+                    <div className="single_service wow fadeInRight" data-wow-delay="4s">
                         <!--i className="icon-tools-2"></i -->
                         <img src="images/img-montaz.png" alt="Rondo Kuchyně" />
                         <h2>Montáž</h2>

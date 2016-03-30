@@ -11,7 +11,7 @@ class Kitchen_e extends React.Component {
     return (
       <div className="col-md-4 no_padding">
         <div className="single_image">
-          <a id="kitchen_e" href="#animatedModal_e"><img src="images/kitchen/img/03/01.jpg" alt="" /></a>
+          <a id="kitchen_e" href="#animatedModal_e"><img src="images/kitchen/img/05/01.jpg" alt="" /></a>
         </div>
         <div id="animatedModal_e">
             <div className="close-animatedModal_e" id="closebt-container">
@@ -24,32 +24,32 @@ class Kitchen_e extends React.Component {
                   Základní informace o kuchyni
                 </div>
                 <div className="col-md-4">
-                  <img src="images/kitchen/img/03/01.jpg" alt="" />
+                  <img src="images/kitchen/img/05/01.jpg" alt="" />
                 </div>
                 <div className="col-md-4">
-                  <img src="images/kitchen/img/03/02.jpg" alt="" />
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-md-4">
-                  <img src="images/kitchen/img/03/03.jpg" alt="" />
-                </div>
-                <div className="col-md-4">
-                  <img src="images/kitchen/img/03/04.jpg" alt="" />
-                </div>
-                <div className="col-md-4">
-                  <img src="images/kitchen/img/03/05.jpg" alt="" />
+                  <img src="images/kitchen/img/05/02.jpg" alt="" />
                 </div>
               </div>
               <div className="row">
                 <div className="col-md-4">
-                  <img src="images/kitchen/img/03/08.jpg" alt="" />
+                  <img src="images/kitchen/img/05/03.jpg" alt="" />
                 </div>
                 <div className="col-md-4">
-                  <img src="images/kitchen/img/03/07.jpg" alt="" />
+                  <img src="images/kitchen/img/05/04.jpg" alt="" />
                 </div>
                 <div className="col-md-4">
-                  <img src="images/kitchen/img/03/06.jpg" alt="" />
+                  <img src="images/kitchen/img/05/05.jpg" alt="" />
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-4">
+                  <img src="images/kitchen/img/05/08.jpg" alt="" />
+                </div>
+                <div className="col-md-4">
+                  <img src="images/kitchen/img/05/07.jpg" alt="" />
+                </div>
+                <div className="col-md-4">
+                  <img src="images/kitchen/img/05/06.jpg" alt="" />
                 </div>
               </div>
             </div>
