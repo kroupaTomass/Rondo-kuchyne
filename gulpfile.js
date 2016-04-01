@@ -108,6 +108,7 @@ gulp.task('watch', function() {
   gulp.watch(app + 'index.html', ['html']);
   gulp.watch(app + 'scripts/**/*.js', ['scripts']);
   gulp.watch(app + 'scripts/**/*.jsx', ['scripts']);
+  gulp.watch(app + 'vendor-source/css/**/*.css', ['scripts']);
 });
 
 // remove bundels

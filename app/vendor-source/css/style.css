@@ -1,16 +1,22 @@
+@font-face {
+   font-family: 'Ubuntu'; /* deklarace fontu */
+   src: url("../fonts/Ubuntu-M.ttf"); /* propojení na umístění souboru */
+}
+
 body{
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	overflow-x: hidden;
 }
 p{
 	font-family: 'Ubuntu', sans-serif;
 }
 a{
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: normal;
 }
 
 /*Header*/
@@ -170,7 +176,7 @@ margin-left: -23px;
 .single_testimonial p{
 color: #404040;
 font-size: 18px;
-font-family: 'Dosis', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 letter-spacing: 1px;
 padding-top: 110px;
 
@@ -211,7 +217,7 @@ font-weight: bold;
 margin-bottom: 0px;
 }
 .single_count p{
-font-family: 'Dosis', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 color: #fff;
 font-size: 14px;
 text-transform: uppercase;
