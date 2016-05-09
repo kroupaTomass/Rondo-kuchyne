@@ -45,7 +45,7 @@ class Work extends React.Component{
             <Kuchyne_g />
             <Kuchyne_h />
             <div className="col-md-4 no_padding div-work-facebook">
-              <img src="images/img_facebook_href.png" alt="Kuchyně RONDO" />
+              <a href="https://www.facebook.com/kuchyneRondo/" target="_blank"><img src="images/icon-facebook-wood.png" alt="Kuchyně RONDO" /></a>
             </div>
           </div>
         </div>

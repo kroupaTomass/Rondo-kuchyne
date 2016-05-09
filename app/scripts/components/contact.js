@@ -58,11 +58,13 @@ class Contact extends React.Component{
             </div>
             <div className="col-md-3 wow fadeInRight animated">
               <div className="single_contact_info">
-              <img src="images/contact/facebook.png" alt="Rondo kuchyně - kontakt - Facebook" className='contact-image-icon' />
-                <h2>
-                  Facebook <br />
-                  Kuchyně Rondo
-                </h2>
+                <a href="https://www.facebook.com/kuchyneRondo/" target="_blank">
+                  <img src="images/contact/facebook.png" alt="Rondo kuchyně - kontakt - Facebook" className='contact-image-icon' />
+                </a>
+                <h2>Facebook</h2>
+                <p>
+                  <a href="https://www.facebook.com/kuchyneRondo/" target="_blank">Kuchyně Rondo</a>
+                </p>
               </div>
             </div>
           </div>

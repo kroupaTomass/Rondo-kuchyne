@@ -518,6 +518,11 @@ letter-spacing: 0px;
 .div-work-facebook {
 	text-align: center;
 	vertical-align: middle;
+  top: 20%;
+}
+
+.div-work-facebook img {
+	max-height: 350px;
 }
 
 .div-kitchen-content {

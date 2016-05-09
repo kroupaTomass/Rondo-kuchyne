@@ -26,7 +26,7 @@ class Footer extends React.Component{
                 <div className="social">
                   <h2>Sledujte nás</h2>
                   <ul className="icon_list">
-                    <li><a href="http://www.facebook.com/rondo-kuchyne" target="_blank"><i className="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.facebook.com/kuchyneRondo/" target="_blank"><i className="fa fa-facebook"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -36,7 +36,7 @@ class Footer extends React.Component{
             <div className="row">
               <div className="col-md-12 text-center">
                 <div className="copyright_text   wow fadeInUp animated">
-                  <p>&copy; Rondo kuchyně 2015</p>
+                  <p>&copy; Rondo kuchyně 2016</p>
                 </div>
               </div>
             </div>
