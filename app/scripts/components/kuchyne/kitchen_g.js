@@ -21,7 +21,6 @@ class Kitchen_g extends React.Component {
               <h4>Dětský pokoj</h4>
               <div className="row">
                 <div className="col-md-4">
-                  Základní informace o kuchyni
                 </div>
                 <div className="col-md-4">
                   <img src="images/kitchen/img/07/02.jpg" alt="" />
