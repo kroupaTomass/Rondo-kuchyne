@@ -36,10 +36,8 @@
                   <h4>-Josef Koblížek</h4>
                 </div>
                 <div className="single_testimonial text-center">
-                  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-                    eius
-                    <br/> modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                  <h4>-JOHN SMITH</h4>
+                  <p>Od společnosti Kuchyně RONDO máme vyrobený nábytek do celého domu na míru a jsme s ním naprosto spokojeni. Od první chvíle až po namontování nenastala žádná komplikace.</p>
+                  <h4>-Pavla Pokorná</h4>
                 </div>
               </div>
             </div>

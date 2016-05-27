@@ -14,7 +14,7 @@ class Header extends React.Component{
           <div className="row">
             <div className="col-md-12 text-center">
               <div className="about_title">
-                <h2>O nás</h2>
+                <h2>Kuchyně Rondo</h2>
                 <img src="images/shape.png" alt="" />
               </div>
             </div>
