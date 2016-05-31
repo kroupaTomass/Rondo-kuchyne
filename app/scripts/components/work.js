@@ -23,9 +23,9 @@ class Work extends React.Component{
           <div className="row">
             <div className="col-md-12 text-center">
               <div className="work_title  wow fadeInUp animated">
-                <h1>Ukázka realizací</h1>
+                <h1>UKÁZKY Z VAŠICH REALIZACÍ</h1>
                 <img src="images/shape.png" alt="" />
-                <p>Ukázka realizací, které jsme v poslední době navrhli a vyrobili pro naše zákazníky přesně podle jejich představ.</p>
+                <p>Kuchyně a další interiérový nábytek, který jsme vám již vyrobili.</p>
               </div>
             </div>
           </div>
