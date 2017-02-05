@@ -33,7 +33,7 @@ class SectionService extends React.Component{
                         <!--i className="icon-gears"></i -->
                         <img src="images/img-vyroba.png" alt="Rondo Kuchyně" />
                         <h2>Výroba na míru</h2>
-                        <p>Vaši potvrzenou zakázku předáváme na dílnu, kde je vyrobena přesně podle domluvených detailů</p>
+                        <p>Vaši potvrzenou zakázku předáváme na dílnu, kde je vyrobena podle domluvených detailů</p>
                     </div>
                 </div>
                 <div className="col-md-3 text-center">
@@ -41,7 +41,7 @@ class SectionService extends React.Component{
                         <!--i className="icon-tools-2"></i -->
                         <img src="images/img-montaz.png" alt="Rondo Kuchyně" />
                         <h2>Montáž</h2>
-                        <p>Vaši kuchyni či nábytek ve stanoveném termínu přivezeme a zkompletizujeme. A vy už si jen užíváte radost z nového kousku ve vašem domově</p>
+                        <p>Vaši kuchyni či nábytek ve stanoveném termínu přivezeme a zkompletujeme. A vy už si jen užíváte radost z nového kousku ve vašem domově</p>
                     </div>
                 </div>
             </div>

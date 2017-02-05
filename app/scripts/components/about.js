@@ -28,8 +28,8 @@ class Header extends React.Component{
                 Kuchyně Rondo vám to splní!
                 <br />
                 Výrobou kuchyní se zabýváme již téměř deset let (do roku 2015 pod značkou ZT kuchyně) a někteří z našich pracovníků ještě mnohem déle.
-                Spoluprací s námi získáte spolehlivého partnera při tvorbě vašeho domova nebo pracovního prostředí. Vyrábíme interiérový nábytek - od kuchyně po noční stolky s postelí,
-                kancelářský nábytek, nábytek pro tělesně handicapované. Přinášíme tak do vašich životů kvalitní truhlářskou výrobu za rozumnou cenu.
+                Spoluprací s námi získáte spolehlivého partnera při tvorbě vašeho domova nebo pracovního prostředí. Vyrábíme kuchyně prvotřídní kvality včetně kuchuňských sestav pro tělěsně handicapované,
+                po domluvě také další interiérový nábytek. Přinášíme tak do vašich životů kvalitní truhlářskou výrobu za rozumnou cenu.
               </p>
             </div>
             <div className="col-md-4  wow fadeInRight animated">
@@ -43,7 +43,7 @@ class Header extends React.Component{
             <div className="col-md-4  wow fadeInRight animated">
               <p className="about_us_p">
                 Zákazník a jeho přání je pro nás priorita číslo jedna. O vašich představách se s vámi budeme bavit a dolaďovat je tak, aby výsledkem byl nábytek praktický,
-                pohodlný a hlavně líbivý vašemu oku. Rádi vám poradíme s typem nábytku vhodným právě do vašeho interiéru, připravíme vám cenovou nabídku, která potěší váš rozpočet,
+                pohodlný a líbivý vašemu oku. Rádi vám poradíme s typem nábytku vhodným právě do vašeho interiéru, připravíme vám cenovou nabídku, která potěší váš rozpočet,
                 v ceně zakázky rovněž zpracujeme 3D návrh a samozřejmě zajistíme výrobu a montáž nábytku prvotřídní kvality.
                 <br />
                 Kontaktujte nás na tel.: +420 775 020 314 nebo e-mailu: info@kuchynerondo.cz.

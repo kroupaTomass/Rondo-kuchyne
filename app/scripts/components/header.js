@@ -43,7 +43,7 @@ class Header extends React.Component{
                   <div className='home_text wow fadeInUp animated'>
                     <h1 id='header-h-hide'>Rondo kuchyně</h1>
                     <img src='images/kuchyne_rondo_big.png' alt='Kuchyně Rondo' id="img-header-logo" />
-                    <p id="p-header-motto">Když kuchyně dělá domov</p>
+                    <p id="p-header-motto">Kuchyně s elegancí</p>
                     <img src='images/shape.png' alt='' />
                     <div className='scroll_down' id='div-icon-scroll'>
                       <a href='#SERVICE'><img src='images/scroll.png' alt='' /></a>
