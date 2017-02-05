@@ -25,9 +25,23 @@ body
   border:0
   pointer-events: none
 
+.container-fluid
+  padding: 50px
+  color: white
+  background-color: rgb(67, 66, 66)
+
+  .single_image img
+    border: 5px outset rgba(255, 255, 255, 0.2)
+
 .contact-background-map
   background:url('../images/image_map.jpg') no-repeat
   background-size: cover
+
+@media screen and (max-width: 992px)
+  .imac
+    position: relative;
+    margin: 40px auto;
+    width: 80%;
 
 @media screen and (max-width: 800px)
   .contact-background-map
